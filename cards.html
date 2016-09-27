@@ -1,0 +1,8 @@
+<div class="card card-inverse " ng-class="{ true : 'card-primary', false : 'card-success' }[card.lor]">
+	<div class="card-block">
+	  	<h4 class="card-title">{{card.title}}</h4>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <button class="btn btn-primary btn-card" data-ng-click="animate(card.title)" ng-show="card.lor">Move Right</button>
+			<button class="btn btn-primary btn-card" ng-show="!card.lor">Moved to Right</button>
+	</div>
+</div>
